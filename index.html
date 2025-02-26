@@ -56,10 +56,10 @@
                     <p>I design digital products with great experience.</p>
                     <div class="flex gap-4  items-center    ">
                         <div class="flex gap-1  rounded-sm">
-                            <button type="submit " class=" bg-orange px-6 py-4 rounded-tl-sm rounded-bl-sm">hire me</button>
-                            <button type="submit" class="bg-orange px-4 rounded-tr-sm rounded-br-sm"><img src="./assets/images/plus.svg" alt=""></button>
+                            <button type="submit " class=" bg-orange px-6 py-4 rounded-tl-md rounded-bl-md">hire me</button>
+                            <button type="submit" class="bg-orange px-4 rounded-tr-md rounded-br-md"><img src="./assets/images/plus.svg" alt=""></button>
                         </div>
-                        <div class="flex gap-4 bg-black px-2 h-12 rounded-sm ">
+                        <div class="flex gap-4 bg-black px-2 h-12 rounded-md ">
                             <button type="submit" class="flex gap-4 justify-center items-center ">Copy Email
                                 <img src="./assets/images/copy.svg" alt="">
 
@@ -124,7 +124,7 @@
         
                 </div>
             </section>
-            <section class="  mt-8 bg-body p-6 rounded-xl flex flex-col gap-8 lg:order-4 lg:row-span-2" >
+            <section class="  mt-8 bg-body p-6 rounded-xl flex flex-col gap-8 lg:order-4 lg:row-span-2 lg:mt-0" >
                 <div class="flex justify-between items-center ">
                     <div>
                         <h1>iOS Mobile app</h1>
@@ -136,7 +136,7 @@
                     <img src="./assets/images/Mockup.png" alt="">
                 </div>
             </section>
-            <section class="  mt-8 bg-body p-6 rounded-xl flex flex-col gap-8 lg:order-3 lg:row-span-2 " >
+            <section class="  mt-8 bg-body p-6 rounded-xl flex flex-col gap-8 lg:order-3 lg:row-span-2 lg:mt-0 " >
                 <div class="flex justify-between items-center ">
                     <div>
                         <h1>AI Music product</h1>
@@ -162,11 +162,14 @@
             </section>
 
         </section>
-        <section class="  mt-8 bg-body p-6 rounded-xl flex flex-col gap-8" >
-            <div class="flex justify-center">
+        <section class="  mt-8 bg-body p-6 rounded-xl flex flex-col gap-8 lg:flex lg:flex-row lg:justify-between lg:items-center" >
+            <span class="text-center hidden lg:block">portfolio 2024</span>
+
+            <div class="flex justify-center block lg:hidden">
                 <div class=" block lg:hidden flex px-4 py-1 gap-2 w-[200px] lg:w-[180px]  bg-black rounded-full items-center justify-center">
                     <div class="w-[7px] lg:w-[9px] h-[7px] lg:h-[9px] bg-orange rounded-full"></div>
-                    <span  text-white">AVAILABLE FOR JOB</span>
+                    <span  class="text-white block lg:hidden ">AVAILABLE FOR JOB</span>
+
                 </div>
 
             </div>
@@ -175,7 +178,17 @@
                 <span>instagram</span>
                 <span>linkdln</span>
             </div>
-            <span class="text-center">portfolio 2024</span>
+            <span class="text-center block lg:hidden">portfolio 2024</span>
+
+            <div class="flex justify-center hidden lg:block">
+                <div class="  flex px-4 py-1 gap-2 w-[200px] lg:w-[200px]  bg-black rounded-full items-center justify-center">
+                    <div class="w-[7px] lg:w-[9px] h-[7px] lg:h-[9px] bg-orange rounded-full"></div>
+                    <span  class="text-white  ">AVAILABLE FOR JOB</span>
+
+                </div>
+
+            </div>
+
         </section>
 
     </main>
