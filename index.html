@@ -7,22 +7,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">    <title>Document</title>
-    <title>Document</title>
+    <title>bento-style</title>
     <style type="text/tailwindcss">
         @theme {
          --color-orange: #F35034;
          --color-body: #1B1B1B;
          --color-grid :#262626;
          --font-poppins: "Poppins";
+         --color-inter :#E63E21;
+         --color-rouge:#33130E00;
         }
     </style>
 
 </head>
 <body class="bg-black">
     <main class="overflow-x-hidden bg-black m-8  capitalize gap-2 items-center text-white">
-        <div class="flex">
-            <div class="rounded-full w-16 h-full bg-body flex items-center justify-center"><img src="./assets/images/Mark.png" class="rounded-full w-12 py-4 px-2" alt=""></div>
-            <div class=" bg-body rounded-full lg:w-full  w-full h-16 flex items-center px-10  uppercase justify-between  ">
+        <div class="flex  ">
+            <div class="rounded-full w-18  bg-body flex items-center border border-grid justify-center"><img src="./assets/images/Mark.png" class="rounded-full w-12 py-4 px-2" alt=""></div>
+            <div class=" bg-body rounded-full lg:w-full border border-grid w-full h-16 flex items-center px-10  uppercase justify-between  ">
                 <span class="text-orange">about </span>
                 <span class="uppercase hidden lg:block">portfolio</span>
                 <span class="uppercase hidden lg:block">contact</span>
@@ -31,7 +33,7 @@
 
     
         </div>
-        <section class="mt-8 bg-body rounded-xl p-6  flex flex-col gap-8">
+        <section class="mt-8 bg-body rounded-xl p-6  flex flex-col gap-8 border border-grid">
             <div class=" flex flex-col gap-4 lg:flex lg:justify-between lg:flex-row lg:items-center">
                 <div class="hidden lg:block">
                     <h1>UI/UX Designer</h1>
@@ -48,18 +50,18 @@
                 </div>
             </div>
             <div class="flex flex-col gap-4 lg:flex lg:flex-row lg:justify-between lg:items-center">
-                <div class="block lg:hidden">
-                    <img src="./assets/images/Ellipse 61.png" alt="">
+                <div class="block lg:hidden ">
+                    <img src="./assets/images/Ellipse 61.png" alt="" class="border-8 border-grid rounded-full">
                 </div>
                 <div class="flex flex-col gap-4">
                     <h1>I’m Zainab Nisa</h1>
                     <p>I design digital products with great experience.</p>
-                    <div class="flex gap-4  items-center    ">
+                    <div class="flex gap-4  items-center p   ">
                         <div class="flex gap-1  rounded-sm ">
                             <button type="submit " class=" bg-orange px-6 py-4 rounded-tl-md rounded-bl-md  ">hire me</button>
                             <button type="submit" class="bg-orange px-4 rounded-tr-md rounded-br-md "><img src="./assets/images/plus.svg" alt="" class="flex-shrink-0"></button>
                         </div>
-                        <div class="flex gap-4 bg-black px-2 h-12 rounded-md  ">
+                        <div class="flex gap-2 bg-black px-2 h-12 rounded-md  ">
                             <button type="submit" class="flex gap-4 justify-center items-center ">Copy Email
                                 <img src="./assets/images/copy.svg" alt="">
 
@@ -68,13 +70,13 @@
                     </div>
                 </div>
                 <div class="hidden lg:block">
-                    <img src="./assets/images/Ellipse 61.png" alt="">
+                    <img src="./assets/images/Ellipse 61.png" alt="" class="border-8 border-grid rounded-full w-[157px]">
                 </div>
 
             </div>
         </section>
-        <section class=" lg:grid lg:grid-cols-2 lg:grid-rows-auto lg:gap-4">
-            <section class="mt-8 bg-body rounded-xl p-6  flex flex-col gap-8 lg:order-1 lg:row-span-2" >
+        <section class=" lg:grid lg:grid-cols-2  lg:grid-rows-auto lg:gap-4">
+            <section class="mt-8 bg-body rounded-xl p-6  border border-grid flex flex-col gap-8 lg:order-1 lg:row-span-2" >
                 <li>recent work</li>
                 <div class="flex justify-between items-center">
                     <div class="flex flex-col gap-2">
@@ -115,16 +117,16 @@
 
             </section>
             <section class="flex flex-col gap-2 mt-8  lg:order-2 lg:grid-rows-2  >
-                <div class="">
-                    <div class=" bg-body rounded-xl p-6 bg-gradient-to-tr from-grid from-50%  to-orange  ">product design </div>   
+                <div class="border border-grid bg-gradient-to-bl from-grid  from-75%   to-inter p-1  ">
+                    <div class="  rounded-xl p-6 h-28 bg-gradient-to-tr from-grid   from-50%  to-inter flex items-center justify-center   ">product design </div>   
                 </div>
-                <div class="flex gap-4 justify-between">
-                    <div class=" flex-1 bg-body rounded-xl p-6 bg-gradient-to-tr from-grid from-50%  to-orange">user experience</div>
-                    <div class=" flex-1 bg-body rounded-xl p-6 bg-gradient-to-tl from-grid from-50%  to-orange">nocode develop</div>
+                <div class="flex gap-4 justify-between h-28">
+                    <div class=" flex-1 bg-body  text-center flex items-center justify-center border border-grid rounded-xl p-6 bg-gradient-to-tr from-grid from-50%  to-orange">user experience</div>
+                    <div class=" flex-1 bg-body border flex items-center justify-center border-grid rounded-xl p-6 bg-gradient-to-bl  from-grid from-50%  to-orange">nocode develop</div>
         
                 </div>
             </section>
-            <section class="  mt-8 bg-body p-6 rounded-xl flex flex-col gap-8 lg:order-4 lg:row-span-2 lg:mt-0" >
+            <section class="  mt-8 bg-body p-6 rounded-xl border border-grid flex flex-col gap-8 lg:order-4 lg:row-span-2 lg:mt-0" >
                 <div class="flex justify-between items-center ">
                     <div>
                         <h1>iOS Mobile app</h1>
@@ -136,7 +138,7 @@
                     <img src="./assets/images/Mockup.png" alt="">
                 </div>
             </section>
-            <section class="  mt-8 bg-body p-6 rounded-xl flex flex-col gap-8 lg:order-3 lg:row-span-2 lg:mt-0 " >
+            <section class="  mt-8 bg-body p-6 rounded-xl flex border border-grid flex-col gap-8 lg:order-3 lg:row-span-2 lg:mt-0 " >
                 <div class="flex justify-between items-center ">
                     <div>
                         <h1>AI Music product</h1>
@@ -148,7 +150,7 @@
                     <img src="./assets/images/Group 35561.png" alt="">
                 </div>
             </section>
-            <section class="  mt-8 bg-body p-6 rounded-xl flex flex-col gap-8 lg:order-last lg:mt-0 " >
+            <section class="  mt-8 bg-body p-6 rounded-xl border border-grid flex flex-col gap-8 lg:order-last lg:mt-0 " >
                 <div class="flex justify-between items-center ">
                     <div>
                         <h1>AI Music product</h1>
@@ -162,7 +164,7 @@
             </section>
 
         </section>
-        <section class="  mt-8 bg-body p-6 rounded-xl flex flex-col gap-8 lg:flex lg:flex-row lg:justify-between lg:items-center" >
+        <section class="  mt-8 bg-body p-6 rounded-xl border border-grid flex flex-col gap-8 lg:flex lg:flex-row lg:justify-between lg:items-center" >
             <span class="text-center hidden lg:block">portfolio 2024</span>
 
             <div class="flex justify-center block lg:hidden">
